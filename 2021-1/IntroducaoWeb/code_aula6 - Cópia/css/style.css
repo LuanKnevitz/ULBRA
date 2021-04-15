@@ -1,0 +1,216 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color: #e2e2e2;
+}
+
+.divTudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divLinha{
+    clear: both;
+}
+
+.h2TituloSessao{
+    font-size: 20px;
+    padding: 10px 0px 10px 10px;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    padding: 7px 7px 7px 7px;
+}
+
+th{
+    color: darkgrey;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+
+td{
+    text-align: center;
+    font-size: 14px;
+
+}
+
+/* estilos do cabeçalho geral */
+
+#divCabecalho{
+    background-color: #162e58;
+    min-height: 100px;
+    padding: 30px 50px 10px 50px;
+    position: relative;
+    
+}
+
+#h1TituloCabecalho{
+    color: #fff;
+    float: left;
+    min-width: 50%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.divmenu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding-left: 21%;
+    padding-right: 21%;
+    text-align: center;
+}
+
+.itemMenu{
+    float: left;
+    color: #fff;
+    text-align: center;
+    width: 12.5%;
+    height: 40px;
+}
+
+.itemMenu:hover{
+    background-color: black;
+}
+
+/* estilos classificação */
+
+#divClassificacao{
+    width: 50%;
+}
+
+#tableClassificacao{
+    width: 100%;
+    background-color: #fff;
+}
+
+.h3TituloGrupo{
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+}
+
+.tdNomeClube{
+    text-align: left;
+}
+
+.thNomeClube{
+    width: 50%;
+}
+
+.tdPosicaoClube{
+    width: 4%;
+    
+}
+
+.thCincoUltimas{
+    width: 20%;
+}
+
+.tdCincoUltimas{
+    text-align: center;
+    
+}
+
+.tdimgClube{
+    width: 5%;
+}
+
+.imgClube{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.divVitoria{
+    background-image: url('../imagens/v.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.divEmpate{
+    background-image: url('../imagens/e.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.divDerrota{
+    background-image: url('../imagens/d.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+
+/* estilos goleadores*/
+
+#divGoleadores{
+    width: 50%;
+}
+
+#tableGoleadores{
+    width: 100%;
+    background-color: #fff;
+}
+
+.tdJogador{
+    width: 90%;
+    text-align: left;
+}
+
+.spanNomeClube{
+    color: darkgrey;
+    font-size: 12px;
+}
+
+#tableGoleadores td{
+    padding: 20px 10px 10px 10px;
+    
+}
+
+/* estilos jogos */
+
+#divJogos{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+#tableJogos{
+    width: 100%;
+    background-color: #fff;
+}
+
+.tableJogo{
+    width: 100%;
+}
+
+.tableJogo .thTableJogo{
+    font-size: 12px;
+    color: darkgrey;
+    text-align: left;
+}
+
+.tableJogo .tdClube{
+    text-align: left;
+    width: 80%;
+}
+
+.tableJogo .tdHorario{
+    text-align: center;
+    font-size: 8px;
+}
+
+
+
